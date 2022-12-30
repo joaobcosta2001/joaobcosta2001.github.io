@@ -1,0 +1,15 @@
+#footerMainDiv{
+    width:100vw;
+    background-color: #131313;
+    text-align: center;
+    font-family: montserrat;
+    color: #d9d9d9;
+    font-size: 1vw;
+    padding: 3vw 1vw 5vw 1vw;
+
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../../assets/fonts/Montserrat-ExtraLight.ttf);
+}
