@@ -8,7 +8,7 @@
 }
 
 #aboutMeWarningDiv{
-    padding-top: 20vw;
+    padding-top: 14vw;
 }
 
 #aboutMeText{
@@ -16,7 +16,7 @@
 }
 
 #aboutMeBackButton{
-    margin: 1vw;
+    margin-top: 5vw;
     border-radius: 0.5vw;
     padding: 1vw;
     font-family: raleway;

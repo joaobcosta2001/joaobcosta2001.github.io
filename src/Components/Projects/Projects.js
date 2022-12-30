@@ -11,7 +11,7 @@ function Projects() {
       <Navbar/>
       <div id="projectsWarningDiv">
         <p id="projectsText">I'm sorry, I still haven't found</p>
-        <p id="projectsText">time to finish this page!</p>
+        <p id="projectsText">time to make this page!</p>
         <Button id="projectsBackButton" onClick={()=>navigate("/")}>Back</Button>
       </div>
     </div>

@@ -9,7 +9,7 @@ const fonts = ["oswald-xlight","oswald-regular"]
 function AboutMeWords() {
 
   return (
-    <motion.div id="aboutMeWordsMainDiv" initial={{opacity:0,x:"-200vw"}} whileInView={{opacity:1,x:"0vw"}} transition={{duration:1}} viewport={{once:true}}>
+    <motion.div id="aboutMeWordsMainDiv" initial={{opacity:0,x:"-200vw"}} whileInView={{opacity:1,x:"0vw"}} transition={{duration:1}} >
       <div className="aboutMeWordsRow" style={{position: "absolute", left:"-50vw",top:"0vw"}}>
         {words.map((word,index)=>{
           var font_type = fonts[Math.floor(Math.random()*fonts.length)]

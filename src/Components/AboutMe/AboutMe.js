@@ -13,7 +13,9 @@ function AboutMe() {
       <div id="aboutMeWarningDiv">
         <p id="aboutMeText">I'm sorry, I still haven't found</p>
         <p id="aboutMeText">time to finish this page, but if you're</p>
-        <p id="projectsText">interested here is my <a id="aboutMeCVLink" href={cvFile} download="CV_Joao_Costa">CV</a></p>
+        <p id="aboutMeText">interested here is my <a id="aboutMeCVLink" href={cvFile} download="CV_Joao_Costa">CV</a>.</p>
+        <p></p>
+        <p id="aboutMeText">Also my email is joaoassuncaoecosta@gmail.com.</p>
         <Button id="aboutMeBackButton" onClick={()=>navigate("/")}>Back</Button>
       </div>
     </div>
