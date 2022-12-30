@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec0dddbe.css",
+    "main.js": "/static/js/main.8d4348b6.js",
+    "static/media/CV_Joao_Costa_PT.pdf": "/static/media/CV_Joao_Costa_PT.7b2e7ee6b215a54c7d3f.pdf",
+    "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
+    "static/media/Montserrat-ExtraLight.ttf": "/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
+    "static/media/me-effect.png": "/static/media/me-effect.3298ebfb9a595e23e1c7.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/covidSim.png": "/static/media/covidSim.3af87e2c46d99b2fda63.png",
+    "static/media/Oswald-Regular.ttf": "/static/media/Oswald-Regular.e815068d369177121fd8.ttf",
+    "static/media/Oswald-ExtraLight.ttf": "/static/media/Oswald-ExtraLight.91951892dbc8636d8f73.ttf",
+    "static/media/caseImage.jpg": "/static/media/caseImage.49c92330de15ae44f119.jpg",
+    "static/media/LID.jpeg": "/static/media/LID.9eb62647025f143c0f99.jpeg",
+    "static/media/sea-mayem.png": "/static/media/sea-mayem.c390b55a6720ca3dd24d.png",
+    "index.html": "/index.html",
+    "main.ec0dddbe.css.map": "/static/css/main.ec0dddbe.css.map",
+    "main.8d4348b6.js.map": "/static/js/main.8d4348b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec0dddbe.css",
+    "static/js/main.8d4348b6.js"
+  ]
+}
