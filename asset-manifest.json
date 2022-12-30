@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f00df89a.css",
+    "main.css": "/static/css/main.1b9cd291.css",
     "main.js": "/static/js/main.161064cd.js",
     "static/media/CV_Joao_Costa_PT.pdf": "/static/media/CV_Joao_Costa_PT.7b2e7ee6b215a54c7d3f.pdf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
@@ -16,11 +16,11 @@
     "static/media/LID.jpeg": "/static/media/LID.9eb62647025f143c0f99.jpeg",
     "static/media/sea-mayem.png": "/static/media/sea-mayem.c390b55a6720ca3dd24d.png",
     "index.html": "/index.html",
-    "main.f00df89a.css.map": "/static/css/main.f00df89a.css.map",
+    "main.1b9cd291.css.map": "/static/css/main.1b9cd291.css.map",
     "main.161064cd.js.map": "/static/js/main.161064cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f00df89a.css",
+    "static/css/main.1b9cd291.css",
     "static/js/main.161064cd.js"
   ]
 }
