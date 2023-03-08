@@ -1,0 +1,108 @@
+#contactsMainDiv{
+    width: 100vw;
+    position: relative;
+}
+
+.contactBubble{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    background-color: var(--primary-color);
+    border-radius: 7.5vw;
+}
+
+#contactBubblePhone{
+    left:14vw;
+}
+#contactBubbleEmail{
+    left:34vw;
+}
+#contactBubbleLinkedin{
+    left:54vw;
+}
+#contactBubbleGithub{
+    left:74vw;
+}
+
+.contactBubbleImage{
+    width: 100%;
+    height: 100%;
+    background-size: 70% 70%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.contactBubbleImageHighlight{
+    width: 100%;
+    height: 100%;
+    background-size: 70% 70%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+.contactBubbleImageHighlight:hover{
+    opacity: 1;
+    transition: 0.3s ease-out;
+}
+
+
+#phoneImage{
+    background-image: url(../../assets/images/contacts/phone-black.svg);
+}
+#phoneImageHighlight{
+    background-image: url(../../assets/images/contacts/phone-white.svg);
+}
+#emailImage{
+    background-image: url(../../assets/images/contacts/email-black.svg);
+}
+#emailImageHighlight{
+    background-image: url(../../assets/images/contacts/email-white.svg);
+}
+#linkedinImage{
+    background-image: url(../../assets/images/contacts/linkedin-black.svg);
+}
+#linkedinImageHighlight{
+    background-image: url(../../assets/images/contacts/linkedin-white.svg);
+}
+#githubImage{
+    background-image: url(../../assets/images/contacts/github-black.svg);
+}
+#githubImageHighlight{
+    background-image: url(../../assets/images/contacts/github-white.svg);
+}
+
+
+#contactsTextDiv{
+    position: absolute;
+    top:18vw;
+    left: 10vw;
+    width: 80vw;
+    height: 10vw;
+  }
+  
+  .contactText{
+    text-align: center;
+    font-family: montserrat;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 4vw;
+  }
+  
+  .contactTextSpecial{
+    color: var(--primary-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .contactTextSpecial:hover{
+    color: var(--primary-highlight-color);
+  }
+
+  a{
+    color: var(--primary-color);
+  }
+
+  a:hover{
+    color: var(--primary-highlight-color);
+  }

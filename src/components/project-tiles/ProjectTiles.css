@@ -1,0 +1,113 @@
+#projectTilesMainDiv{
+    position: relative;
+    stroke-width: 1px;
+    width: 100vw;
+    height: 50vw;
+    z-index: 4;
+}
+
+.projectTileDiv{
+    position: absolute;
+    background-size: 100% 100%;
+    color: white;
+    font-family: montserrat;
+    font-size: 3vw;
+    filter: drop-shadow(0.25vw 0.25vw 0.6vw black);
+    vertical-align: bottom;
+    height: 21vw;
+    width: 38.5vw;
+    cursor: pointer;
+}
+
+#dldProjectDiv{
+    left:10vw;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../../assets/images/projects/dld.png);
+}
+
+#seaMayemProjectDiv{
+    top:24vw;
+    left:10vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),url(../../assets/images/projects/seamayem.png);
+}
+
+#P2PProjectDiv{
+    top:0vw;
+    left:51.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),url(../../assets/images/projects/p2p.png);
+}
+
+#PCCaseProjectDiv{
+    top: 24vw;
+    left: 51.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),url(../../assets/images/projects/pccase.png);
+}
+
+#covidSimProjectDiv{
+    top: 48vw;
+    left: 10vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),url(../../assets/images/projects/covidsim.png);
+}
+
+#lightItDownProjectDiv{
+    top: 48vw;
+    left: 51.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),url(../../assets/images/projects/lightitdown.png);
+}
+
+
+.projectTileDivOverlay{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    animation: projectOverlayOutAnimation 0.5s ease-out;
+    clip-path: polygon(200% 0%, 200% 0, 0% 200%, 0% 200%);
+    background-color: #313431ff;
+}
+
+.projectTileDivOverlayOpen{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: #313431ff;
+    animation: projectOverlayInAnimation 0.5s ease-out;
+    clip-path: polygon(100% -100%, 200% 0, 0% 200%, -100% 100%);
+}
+
+@keyframes projectOverlayInAnimation {
+    0%{
+        clip-path: polygon(100% -100%, 100% -100%, -100% 100%, -100% 100%);
+    }
+    100%{
+        clip-path: polygon(100% -100%, 200% 0, 0% 200%, -100% 100%);
+    }
+}
+
+@keyframes projectOverlayOutAnimation{
+    0%{
+        clip-path: polygon(100% -100%, 200% 0, 0% 200%, -100% 100%);
+    }
+    100%{
+        clip-path: polygon(200% 0%, 200% 0, 0% 200%, 0% 200%);
+    }
+}
+
+
+.projectTileTitleDiv{
+    position: absolute;
+    top:16vw;
+    left: 2vw;
+}
+
+.projectTileTitleDivHighlight{
+    color: var(--primary-color);
+    position: absolute;
+    top:16vw;
+    left: 2vw;
+}
+
+.projectTileDescription{
+    padding: 2vw 2vw 2vw 2vw;
+    font-size: 1.5vw;
+}

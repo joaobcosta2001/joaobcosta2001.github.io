@@ -1,0 +1,36 @@
+#dentMainDiv{
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
+
+#dentBorder{
+    top:0;
+    position: absolute;
+    height: 56.25vw;
+    width: 100vw;
+    background-size: 100vw 56.25vw;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/dent/border.svg);
+}
+
+#dentStroke{
+    top:0;
+    position: absolute;
+    height: 56.25vw;
+    width: 100vw;
+    background-size: 100vw 56.25vw;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/dent/shadow-stroke.svg);
+    filter: drop-shadow(0vw 0 1vw #000);
+}
+
+#dentBackground{
+    top:0;
+    position: absolute;
+    height: 56.25vw;
+    width: 100vw;
+    background-size: 100vw 56.25vw;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/dent/background.svg);
+}

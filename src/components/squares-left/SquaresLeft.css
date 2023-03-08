@@ -1,0 +1,27 @@
+
+#squaresLeftDiv1{
+    background-image: url(../../assets/images/squares-left/size1.svg);
+    z-index: 3;
+}
+#squaresLeftDiv2{
+    background-image: url(../../assets/images/squares-left/size2.svg);
+    z-index: 3;
+}
+#squaresLeftDiv3{
+    background-image: url(../../assets/images/squares-left/size3.svg);
+    z-index: 3;
+}
+#squaresLeftDiv4{
+    background-image: url(../../assets/images/squares-left/size4.svg);
+    z-index: 1;
+}
+
+.squaresLeftDiv{
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-repeat: no-repeat;
+    background-size: 100vw 56.25vw;
+    background-position: -5vw 0vh;
+    filter: drop-shadow(0vw 1vw 1vw rgb(0 0 0 / 0.4));
+}

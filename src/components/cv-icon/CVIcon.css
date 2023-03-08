@@ -1,0 +1,39 @@
+#cvIconMainDiv{
+    position: relative;
+    z-index: 4;
+    width: 20vw;
+    height: 20vw;
+}
+
+#cvDocumentIcon{
+    background-image: url(../../assets/images/cv-icon/document-icon.svg);
+    filter: drop-shadow(-0.3vw 0.3vw 0.5vw #000);
+}
+
+#cvIconShadow{
+    background-image: url(../../assets/images/cv-icon/shadow.svg);
+    filter: drop-shadow(0vw -0.2vw 0.6vw #000);
+
+}
+#cvIconOverlay{
+    background-image: url(../../assets/images/cv-icon/overlay.svg);
+}
+
+.cvIconDiv{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 20vw;
+    height: 20vw;
+    background-size: 20vw 20vw;
+}
+
+
+#cvIconDetectionDiv{
+    position: absolute;
+    top:6vw;
+    left:5.2vw;
+    width: 9vw;
+    height: 10vw;
+    cursor: pointer;
+  }

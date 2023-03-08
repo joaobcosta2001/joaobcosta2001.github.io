@@ -1,0 +1,107 @@
+#projectPopupMainDiv{
+    position: relative;
+}
+
+#projectPopupCloseButton{
+    position: absolute;
+    top:2vw;
+    left:78.5vw;
+    height: 1.5vw;
+    width: 1.5vw;
+    background-image: url(../../assets/images/close-button/close.svg);
+    background-size: 100% 100%;
+}
+
+#projectPopupCloseButtonOverlay{
+    height: 100%;
+    width: 100%;
+    background-image: url(../../assets/images/close-button/close-highlight.svg);
+    background-size: 100% 100%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#projectPopupCloseButtonOverlay:hover{
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+#projectPopupTitle{
+    position: absolute;
+    color: var(--primary-color);
+    left:4vw;
+    top:4vw;
+    font-family: montserrat;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+#projectPopupDescription{
+    color:white;
+    font-size: 1.7vw;
+    font-family: montserrat;
+    position:absolute;
+    top:10vw;
+    left: 4vw;
+    width: 40vw;
+    text-align: justify;
+}
+
+#projectPopupDescriptionNoImage{
+    color:white;
+    font-size: 1.7vw;
+    font-family: montserrat;
+    position:absolute;
+    top:10vw;
+    left: 4vw;
+    width: 72vw;
+    text-align: justify;
+}
+
+.projectPopupImage1{
+    position: absolute;
+    top:4vw;
+    left:50vw;
+    width: 26vw;
+    height: 14vw;
+    background-size: 100% 100%;
+    filter: drop-shadow(0.2vw 0.2vw 0.5vw black);
+}
+
+.projectPopupImage2{
+    position: absolute;
+    top:20.625vw;
+    left:50vw;
+    width: 26vw;
+    height: 14vw;
+    background-size: 100% 100%;
+    filter: drop-shadow(0.2vw 0.2vw 0.5vw black);
+}
+
+#projectdldImage1{
+    background-image: url(../../assets/images/projects/dld1.png);
+}
+#projectdldImage2{
+    background-image: url(../../assets/images/projects/dld2.png);
+}
+#projectp2pImage1{
+    background-image: url(../../assets/images/projects/p2p1.png);
+}
+#projectp2pImage2{
+    background-image: url(../../assets/images/projects/p2p2.png);
+}
+#projectseamayemImage1{
+    background-image: url(../../assets/images/projects/seamayem2.png);
+}
+#projectseamayemImage2{
+    background-image: url(../../assets/images/projects/seamayem1.png);
+}
+
+#projectlightitdownImage1{
+    background-image: url(../../assets/images/projects/lightitdown1.png);
+}
+#projectlightitdownImage2{
+    background-image: url(../../assets/images/projects/lightitdown2.png);
+}
